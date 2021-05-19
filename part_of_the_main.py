@@ -14,7 +14,7 @@ async def on_message(message):
 
         check_id_reaction = [] #list for each reaction... 0,_,0
         id_max = 0
-        array_message = message.content.split() #conversion message into list
+        array_message = message.content.split() #convert message into list
 
         for msg in array_message:
             answer_id = check_string_in_reaction(msg).
