@@ -17,10 +17,10 @@ def id_reaction(index_id):
     with open('Snake.json', 'r', encoding='utf-8') as reaction_id:
         
         id_reaction_desu = json.load(reaction_id)
-        id_immortal = index_id
+        id_indexID = index_id
 
         for id_react in id_reaction_desu:
             
-            if id_immortal == id_react['react_id']:
+            if id_idexID == id_react['react_id']:
                 
                 return (id_react['react_answer'])
