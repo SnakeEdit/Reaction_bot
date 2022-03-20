@@ -2,7 +2,7 @@ import json
 # import pyodbc
 
 def check_string_in_reaction(msg):
-    with open('Snake.json', 'r', encoding='utf-8') as array_react: 
+    with open('DB.json', 'r', encoding='utf-8') as array_react: 
         
         reactus = json.load(array_react)
         
@@ -14,7 +14,7 @@ def check_string_in_reaction(msg):
     return None
 
 def id_reaction(index_id):
-    with open('Snake.json', 'r', encoding='utf-8') as reaction_id:
+    with open('DB.json', 'r', encoding='utf-8') as reaction_id:
         
         id_reaction_desu = json.load(reaction_id)
         id_indexID = index_id
