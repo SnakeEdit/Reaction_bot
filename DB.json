@@ -1,0 +1,14 @@
+[
+
+	{
+		"react_id": 0,
+		"react_info": "info",
+		"react_words": [ "trigger words"],
+		"react_answer": "your answer"
+	},
+	{
+		"react_id": 1,
+		"react_info": "example - greetings",
+		"react_words": [ "hi", "hello", "greetings"],
+		"react_answer": "Hello, nice to meet you!"
+	}
